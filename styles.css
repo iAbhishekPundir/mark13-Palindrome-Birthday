@@ -39,9 +39,9 @@ button {
 
 #output {
     color: #fde68a;
-    max-width: 60%;
+    max-width: 80%;
     margin: 2rem auto;
-    padding: bottom 0px;
+    padding-bottom:0px;
     font-size: larger;
 }
 #submit-btn:hover {

@@ -125,7 +125,7 @@ function palindromeBday() {
             outputImg.src = "/images/happy.svg";
         } else  {
             var [ctr, newDate] = getNextPalindrome(date);
-            result.innerText = `Ohhoo! Your birthday is not a palindrome🙁. The next palindrome is ${newDate.day}-${newDate.month}-${newDate.year}. You missed it by ${ctr} days. `
+            result.innerText = `Oops! Your birthday is not a palindrome🙁. The next palindrome is ${newDate.day}-${newDate.month}-${newDate.year}. You missed it by ${ctr} days. `
         
 
         }
